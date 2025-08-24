@@ -1,0 +1,29 @@
+{
+    "contact":{
+        "firstName":"Jhon",
+        "lastName":"deo",
+        "dateOfBirth":"1900-09-09",
+        "email":"sdfsd@sd.cd",
+        "phone":"9876543457",
+        "address":"fghjk",
+        "city":"zxgh",
+        "state":"dfghj",
+        "postal":"12365",
+        "country":"fgh"
+    },
+    "contact1":{
+        "firstName":"Jhon1",
+        "lastName":"deo1",
+        "dateOfBirth":"1900-09-09",
+        "email":"sdfsd@sd.cd1",
+        "phone":"9876543457",
+        "address":"fghjk1",
+        "city":"zxgh1",
+        "state":"dfghj1",
+        "postal":"123651",
+        "country":"fgh1"
+    },
+    "contactEdit":{
+        "firstName":"Hello"
+    }
+}
