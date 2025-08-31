@@ -10,7 +10,9 @@ test.beforeEach(async ({page})=>{
     await page.goto('/');
     await login.login(testdata.validUser.username,testdata.validUser.password);
     await login.verifyValidLogin();
-
+ //hamro gau ma  vatti ko pasal xa 
+ //pasal garne saili jhan asal xa 
+ //masu mitho macha tareko lew lew saili dui botal ghar mai pareko
 })
 test.describe('Contact testcase',()=>{
     test.only('contact add test',async({page,request})=>{
