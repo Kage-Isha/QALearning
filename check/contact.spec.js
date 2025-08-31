@@ -10,9 +10,19 @@ test.beforeEach(async ({page})=>{
     await page.goto('/');
     await login.login(testdata.validUser.username,testdata.validUser.password);
     await login.verifyValidLogin();
- //hamro gau ma  vatti ko pasal xa 
- //pasal garne saili jhan asal xa 
- //masu mitho macha tareko lew lew saili dui botal ghar mai pareko
+// Um. Kaila Glass-u. Only English. (Music)
+// Um. Hand-la Glass-u. Glass-la Scotch-u
+// Eyes-u Full-ah Tear-u
+// Empty Life-u. Girl-u Come-u
+// Life-u Reverse-u Gear-u
+// Ah. Love-u Love-u. Oh My Love-u
+// You Showed-u Me Bow-u
+// Cow-u Cow-u. Holy Cow-u
+// I Want You Hear Now-u
+// God-u I am Dying Now-u
+// She Is Happy How-u
+// This-u Song-u For Soup Boys-u
+// We Dont Have Choice-u
 })
 test.describe('Contact testcase',()=>{
     test.only('contact add test',async({page,request})=>{
