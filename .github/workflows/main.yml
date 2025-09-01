@@ -12,7 +12,7 @@ jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
-  steps:
+    steps:
     - uses: actions/checkout@v4
     - uses: actions/Steup-node@v4
     - name: Install dependencies
