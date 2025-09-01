@@ -23,6 +23,10 @@ test.beforeEach(async ({page})=>{
 // She Is Happy How-u
 // This-u Song-u For Soup Boys-u
 // We Dont Have Choice-u
+
+
+//serenium,sipres structure same 
+//api post man,swager
 })
 test.describe('Contact testcase',()=>{
     test.only('contact add test',async({page,request})=>{
