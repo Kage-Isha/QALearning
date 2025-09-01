@@ -1,11 +1,11 @@
 name: Playwright Tests
 on:
   push:
-    branches: [main]
+    branches: [ main ]
   pull_request:
-    branches: [main]
+    branches: [ main ]
   schedule:
-    - corn: '30 1**1-5'
+    - corn: '30 1 ** 1-5'
   workflow_dispatch:
 
 jobs:
