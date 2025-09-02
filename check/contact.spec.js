@@ -2,9 +2,9 @@ import {test} from '@playwright/test';
 import { LoginPage } from '../pageObject/login.po';
 import { ContactPage } from '../pageObject/contact.po';
 import { access } from 'fs';
-import {authenticateUser,deleteEntity,getEntity,validateEntity} from './helper.spec';
-const testdata=require('../fixtures/loginFixtures.json');
-const contacttestdata=require('../fixtures/contactFixtures.json');
+const {authenticateUser,deleteEntity,getEntity,validateEntity} = require ('./helper.spec');
+const testdata = require('../fixtures/loginFixtures.json');
+const contacttestdata = require('../fixtures/contactFixtures.json');
 test.beforeEach(async ({page})=>{
     const login=new LoginPage(page);
     await page.goto('/');
